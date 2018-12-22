@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="abc.Start2Controller">
+   <children>
+      <ImageView fitHeight="450.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@back.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="signup" layoutX="32.0" layoutY="235.0" mnemonicParsing="false" onMouseClicked="#onsign" prefHeight="39.0" prefWidth="115.0" text="Sign up" />
+      <Button fx:id="login" layoutX="32.0" layoutY="304.0" mnemonicParsing="false" onMouseClicked="#onlogin" prefHeight="39.0" prefWidth="115.0" text="Login" />
+      <Button fx:id="back" layoutX="32.0" layoutY="370.0" mnemonicParsing="false" onMouseClicked="#onback" prefHeight="39.0" prefWidth="115.0" text="Back" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: #5a2602;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="abc.TableController">
+   <children>
+      <Label fx:id="p1label" layoutX="115.0" layoutY="100.0" text="none" textFill="WHITE">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="p2abel" layoutX="115.0" layoutY="150.0" text="none" textFill="WHITE">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="p3label" layoutX="115.0" layoutY="211.0" text="none" textFill="WHITE">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="p4label" layoutX="115.0" layoutY="265.0" text="none" textFill="WHITE">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="28.0" text="Table of Scores:" textFill="#ff006f">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Label fx:id="p5label" layoutX="115.0" layoutY="324.0" text="none" textFill="WHITE">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="p1lscoreabel" layoutX="444.0" layoutY="100.0" text="0" textFill="#ffdf0c">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="p2lscoreabel" layoutX="444.0" layoutY="150.0" text="0" textFill="#ffdf0c">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="p3lscoreabel" layoutX="444.0" layoutY="211.0" text="0" textFill="#ffdf0c">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="p4lscoreabel" layoutX="444.0" layoutY="265.0" text="0" textFill="#ffdf0c">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="p5lscoreabel" layoutX="444.0" layoutY="324.0" text="0" textFill="#ffdf0c">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="ok" layoutX="261.0" layoutY="418.0" mnemonicParsing="false" onMouseClicked="#onok" prefHeight="39.0" prefWidth="90.0" text="OK">
+         <font>
+            <Font name="Cambria Math" size="22.0" />
+         </font>
+      </Button>
+      <Label layoutX="191.0" layoutY="83.0" text="................................." textFill="#fff98c">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="191.0" layoutY="143.0" text="................................." textFill="#fff98c">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="191.0" layoutY="204.0" text="................................." textFill="#fff98c">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="191.0" layoutY="258.0" text="................................." textFill="#fff98c">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="191.0" layoutY="309.0" text="................................." textFill="#fff98c">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

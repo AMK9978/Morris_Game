@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="770.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="abc.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@zamine.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="resign" fitHeight="110.0" fitWidth="119.0" layoutX="652.0" layoutY="-2.0" onMouseClicked="#onresign" pickOnBounds="true" preserveRatio="true" />
+      <Pane layoutX="88.0" layoutY="113.0">
+         <children>
+            <ImageView fitHeight="450.0" fitWidth="450.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="33.0" AnchorPane.leftAnchor="181.0" AnchorPane.rightAnchor="140.4285888671875" AnchorPane.topAnchor="117.0">
+               <image>
+                  <Image url="@board2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="btn1" fitHeight="40.0" fitWidth="40.0" layoutX="-15.0" layoutY="-14.0" onMouseClicked="#onbtn1" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="btn2" fitHeight="40.0" fitWidth="40.0" layoutX="205.0" layoutY="-14.0" onMouseClicked="#onbtn2" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="btn3" fitHeight="40.0" fitWidth="40.0" layoutX="422.0" layoutY="-14.0" onMouseClicked="#onbtn3" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="btn4" fitHeight="40.0" fitWidth="40.0" layoutX="53.0" layoutY="54.0" onMouseClicked="#onbtn4" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="btn5" fitHeight="40.0" fitWidth="40.0" layoutX="205.0" layoutY="54.0" onMouseClicked="#onbtn5" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="btn6" fitHeight="40.0" fitWidth="40.0" layoutX="356.0" layoutY="54.0" onMouseClicked="#onbtn6" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="btn7" fitHeight="40.0" fitWidth="40.0" layoutX="112.0" layoutY="114.0" onMouseClicked="#onbtn7" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="btn8" fitHeight="40.0" fitWidth="40.0" layoutX="205.0" layoutY="114.0" onMouseClicked="#onbtn8" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="btn9" fitHeight="40.0" fitWidth="40.0" layoutX="298.0" layoutY="114.0" onMouseClicked="#onbtn9" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="btn10" fitHeight="40.0" fitWidth="40.0" layoutX="-15.0" layoutY="205.0" onMouseClicked="#onbtn10" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="btn11" fitHeight="40.0" fitWidth="40.0" layoutX="53.0" layoutY="205.0" onMouseClicked="#onbtn11" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="btn12" fitHeight="40.0" fitWidth="40.0" layoutX="112.0" layoutY="205.0" onMouseClicked="#onbtn12" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="btn13" fitHeight="40.0" fitWidth="40.0" layoutX="298.0" layoutY="205.0" onMouseClicked="#onbtn13" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="btn14" fitHeight="40.0" fitWidth="40.0" layoutX="356.0" layoutY="205.0" onMouseClicked="#onbtn14" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="btn15" fitHeight="40.0" fitWidth="40.0" layoutX="422.0" layoutY="205.0" onMouseClicked="#onbtn15" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="btn16" fitHeight="40.0" fitWidth="40.0" layoutX="112.0" layoutY="296.0" onMouseClicked="#onbtn16" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="btn17" fitHeight="40.0" fitWidth="40.0" layoutX="205.0" layoutY="296.0" onMouseClicked="#onbtn17" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="btn18" fitHeight="40.0" fitWidth="40.0" layoutX="298.0" layoutY="296.0" onMouseClicked="#onbtn18" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="btn19" fitHeight="40.0" fitWidth="40.0" layoutX="57.0" layoutY="355.0" onMouseClicked="#onbtn19" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="btn20" fitHeight="40.0" fitWidth="40.0" layoutX="205.0" layoutY="355.0" onMouseClicked="#onbtn20" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="btn21" fitHeight="40.0" fitWidth="40.0" layoutX="356.0" layoutY="355.0" onMouseClicked="#onbtn21" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="btn22" fitHeight="40.0" fitWidth="40.0" layoutX="-15.0" layoutY="422.0" onMouseClicked="#onbtn22" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="btn23" fitHeight="40.0" fitWidth="40.0" layoutX="205.0" layoutY="422.0" onMouseClicked="#onbtn23" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="btn24" fitHeight="40.0" fitWidth="40.0" layoutX="422.0" layoutY="422.0" onMouseClicked="#onbtn24" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </Pane>
+      <Label fx:id="pfreelbl" layoutX="609.0" layoutY="335.0" prefHeight="60.0" prefWidth="161.0" textFill="#f2ff00" AnchorPane.leftAnchor="609.0" AnchorPane.rightAnchor="1.0">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="571.0" layoutY="284.0" text="Free and All Pieces:" textFill="#ffea00" AnchorPane.rightAnchor="14.4285888671875">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="msg" alignment="CENTER" layoutX="165.0" layoutY="37.0" prefHeight="32.0" prefWidth="292.0" text="White , Move!" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="669.0" layoutY="143.0" text="Time:" textFill="#ffea00">
+         <font>
+            <Font name="Lucida Sans Regular" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="time" layoutX="687.0" layoutY="186.0" text="60" textFill="RED">
+         <font>
+            <Font name="Microsoft YaHei" size="33.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>

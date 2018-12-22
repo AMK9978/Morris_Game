@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="abc.StartController">
+   <children>
+      <ImageView fitHeight="450.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@back.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="login" layoutX="64.0" layoutY="208.0" mnemonicParsing="false" onMouseClicked="#onlogin" prefHeight="39.0" prefWidth="148.0" text="Login" />
+      <Button fx:id="signup" layoutX="64.0" layoutY="153.0" mnemonicParsing="false" onMouseClicked="#onsign" prefHeight="39.0" prefWidth="148.0" text="Sign up" />
+      <Button fx:id="toturial" layoutX="63.0" layoutY="264.0" mnemonicParsing="false" onMouseClicked="#ontutorial" prefHeight="39.0" prefWidth="148.0" text="Toturial" />
+      <Button fx:id="aboutme" layoutX="63.0" layoutY="317.0" mnemonicParsing="false" onMouseClicked="#onaboutme" prefHeight="39.0" prefWidth="148.0" text="About Me" />
+      <Button fx:id="exit" layoutX="64.0" layoutY="372.0" mnemonicParsing="false" onMouseClicked="#onexit" prefHeight="39.0" prefWidth="148.0" text="Exit" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

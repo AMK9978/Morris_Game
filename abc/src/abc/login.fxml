@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="abc.LoginController">
+   <children>
+      <ImageView fitHeight="450.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@back.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="login" layoutX="473.0" layoutY="358.0" mnemonicParsing="false" onMouseClicked="#onlogin" text="Login" />
+      <Button fx:id="back" layoutX="66.0" layoutY="358.0" mnemonicParsing="false" onMouseClicked="#onback" prefHeight="39.0" prefWidth="69.0" text="Back" />
+      <JFXTextField fx:id="name" layoutX="188.0" layoutY="104.0" promptText="Name" />
+      <JFXPasswordField fx:id="pass" layoutX="188.0" layoutY="225.0" promptText="Password" />
+   </children>
+</AnchorPane>
